@@ -138,6 +138,8 @@ add_action( 'widgets_init', 'picchi_widgets_init' );
  * Enqueue scripts and styles.
  */
 function picchi_scripts() {
+	
+	wp_enqueue_style('picchi_poppinsfonts','//fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
 	wp_enqueue_style('picchi_maincss',get_template_directory_uri().'/assets/css/style.css',array(),'1.0.0','all');
 	wp_enqueue_style('picchi_bootstrapcss',get_template_directory_uri().'/assets/css/bootstrap.min.css',array(),'1.0.0','all');
 
