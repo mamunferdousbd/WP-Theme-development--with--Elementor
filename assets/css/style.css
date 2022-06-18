@@ -34,3 +34,9 @@ body{
 .main-navigation ul li a:hover{
     color:tomato;
 }
+/* Footer section CSS */
+
+.site-footer {
+    background-color: #333;
+    padding: 25px 0;
+}
