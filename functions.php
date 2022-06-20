@@ -138,7 +138,8 @@ add_action( 'widgets_init', 'picchi_widgets_init' );
  * Enqueue scripts and styles.
  */
 function picchi_scripts() {
-
+	// Fontawesome
+	wp_enqueue_style('fontawesomecss',get_template_directory_uri().'/assets/css/fontawesome.min.css' , array(), '5.15.4','all');
 	// Google fonts 
 	wp_enqueue_style('google_poppinsfont','https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
 	// CSS file Enqueue
