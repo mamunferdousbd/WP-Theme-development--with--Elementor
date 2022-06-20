@@ -38,5 +38,17 @@ body{
 
 .site-footer {
     background-color: #333;
-    padding: 25px 0;
+    padding: 30px 0;
+    text-align: center;
+}
+.site-footer a i{
+    color:#fff;
+    font-size: 20px;
+    margin: 0 5px;
+    
+}
+.site-footer p{
+    color:#fff;
+    margin-top:10px;
+    margin-bottom: 0px;
 }
